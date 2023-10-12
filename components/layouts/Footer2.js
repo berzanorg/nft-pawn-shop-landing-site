@@ -34,14 +34,7 @@ const Footer2 = ({footerSetting = {}}) => {
                 </div>
                 <div className="uk-panel uk-text-small uk-margin-medium-top">
                     <div className="uk-grid uk-child-width-1-1@m uk-flex-center uk-text-center" data-uk-grid>
-                        <div>
-                            <ul className="uk-subnav uk-text-muted uk-flex-center">
-                                <li><Link href="/blog">Blog</Link></li>
-                                <li><Link href="/privacy">Privacy</Link></li>
-                                <li><Link href="/terms">Terms of use</Link></li>
-                                
-                            </ul>
-                        </div>
+                        
                         <div>
                             <Copyright />
                         </div>

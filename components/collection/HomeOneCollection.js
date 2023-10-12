@@ -1,6 +1,37 @@
 import Link from "next/link";
+import { useState, useEffect } from "react";
+
+
+
 
 const HomeOneCollection = () => {
+    const [timeLeft, setTimeLeft] = useState({
+        days: 10,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+    });
+
+    useEffect(() => {
+        const countdown = setInterval(() => {
+            let totalSeconds =
+                timeLeft.days * 86400 +
+                timeLeft.hours * 3600 +
+                timeLeft.minutes * 60 +
+                timeLeft.seconds - 1;
+
+            setTimeLeft({
+                days: Math.floor(totalSeconds / 86400),
+                hours: Math.floor((totalSeconds % 86400) / 3600),
+                minutes: Math.floor((totalSeconds % 3600) / 60),
+                seconds: Math.floor(totalSeconds % 60),
+            });
+        }, 1000);
+
+        return () => clearInterval(countdown);
+    }, [timeLeft]);
+
+
     return (
         <>
             <div id="uni_collection" className="uni-collection uk-section uk-section-large@m uk-panel uk-overflow-hidden uk-padding-2xlarge-bottom@m swiper-parent">
@@ -18,12 +49,17 @@ const HomeOneCollection = () => {
                                         <div className="uk-panel uk-image-middle"><img src="images/artwork/06.jpg" alt="" className="uk-radius-small uk-radius-medium@m" loading="lazy" /> <Link href="#" className="uk-position-cover" aria-label="Metaverse"></Link></div>
                                     </div>
 
-                                    <div className="uni-artwork-content uk-panel uk-margin-small-top uk-margin-2xsmall-bottom uk-flex-column uk-flex-middle">
+                                    <div className="uni-artwork-content uk-panel uk-margin-small-top uk-margin-2xsmall-bottom uk-flex-column uk-flex-middle">                                      
                                         <h2 className="uk-h6 uk-h5@m uk-margin-remove">
                                             <a className="uk-link-reset" href="#">#Metaverse</a>
                                         </h2>
-                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">By TheSalvare</span>
-                                        <div className="uni-btn uk-margin-medium-top uk-margin-2xlarge-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
+                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">Mad Lads</span>
+                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
+                                            <p className="text-lg font-bold">
+                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+                                            </p>
+                                        </div>
+                                        <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>View more in OPENSEA</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
@@ -42,8 +78,13 @@ const HomeOneCollection = () => {
                                         <h2 className="uk-h6 uk-h5@m uk-margin-remove">
                                             <a className="uk-link-reset" href="#">#Polly Doll</a>
                                         </h2>
-                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">By TheSalvare</span>
-                                        <div className="uni-btn uk-margin-medium-top uk-margin-2xlarge-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
+                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">Okay Bears</span>
+                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
+                                            <p className="text-lg font-bold">
+                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+                                            </p>
+                                        </div>
+                                        <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>View more in OPENSEA</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
@@ -62,8 +103,13 @@ const HomeOneCollection = () => {
                                         <h2 className="uk-h6 uk-h5@m uk-margin-remove">
                                             <Link className="uk-link-reset" href="#">#Alec Art</Link>
                                         </h2>
-                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">By Georgijevic</span>
-                                        <div className="uni-btn uk-margin-medium-top uk-margin-2xlarge-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
+                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">Reavers</span>
+                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
+                                            <p className="text-lg font-bold">
+                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+                                            </p>
+                                        </div>
+                                        <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>View more in OPENSEA</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
@@ -83,8 +129,13 @@ const HomeOneCollection = () => {
                                             <Link className="uk-link-reset" href="#">#Toxic Poeth</Link>
                                         </h2>
 
-                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">By Yayoi</span>
-                                        <div className="uni-btn uk-margin-medium-top uk-margin-2xlarge-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
+                                        <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">CETS</span>
+                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
+                                            <p className="text-lg font-bold">
+                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+                                            </p>
+                                        </div>
+                                        <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>View more in OPENSEA</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
@@ -98,7 +149,7 @@ const HomeOneCollection = () => {
 
 
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

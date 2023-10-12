@@ -24,7 +24,7 @@ const HeroBannerOne = () => {
                                 <a href="#uni_collection" className="uk-button uk-button-medium uk-button-large@m uk-button-gradient uk-margin-medium-top">Launch App</a>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </>

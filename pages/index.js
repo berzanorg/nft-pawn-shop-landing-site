@@ -20,6 +20,7 @@ export default function Template() {
 			</Head>
 			<Header2/>
 			<HeroBannerTwo/>
+			<Divider/> 
 			<HomeOneCollection/>
 			<Divider/>    
 			<ChoseUs/>   

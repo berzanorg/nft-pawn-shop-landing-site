@@ -10,7 +10,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import  '../assets/css/uikit.min.css'; 
+
 import '../assets/css/theme/main.css';
 
 function MyApp({ Component, pageProps }) {

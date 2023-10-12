@@ -21,20 +21,11 @@ const MobileMenu = () => {
                     <div className="uk-card uk-card-small">
                         <div className="uk-panel">
                             <ul className="uk-nav uk-nav-default">
-                                <li className="uk-nav-header">Homepages</li>
-                                <li><Link href="landing-01">Landing 01</Link></li>
-                                <li><Link href="landing-02">Landing 02</Link></li>
-                                <li><Link href="landing-03">Landing 03</Link></li>
-                                <li><Link href="landing-04">Landing 04</Link></li>
-                                <li><Link href="landing-05">Landing 05</Link></li>
-                                <li className="uk-nav-header">Inner pages</li>                           
-                                <li><Link href="contact">Contact</Link></li>
-                               
-  
-                                    <li><Link href="404">404 page</Link></li>                           
-                                <li className="uk-nav-header">Content &amp; Privacy</li>
-                                <li><Link href="terms">Terms of use</Link></li>
-                                <li><Link href="privacy">Privacy Policy</Link></li>
+                            <li><a href="#uni_about">About</a></li>
+                                        <li><a href="#uni_roadmap">Roadmap</a></li>
+                                        <li><a href="#uni_team">Team</a></li>
+                                        <li><a href="#uni_collection">Collection</a></li>
+                                    
                             </ul>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Logo from '../common/Logo';
 import { useEffect } from 'react';
-import ConnectWallet from './ConnectWallet';
+
 import MobileMenu from './MobileMenu';
 
 const HeaderInner = ({headerSetting = {}}) => {      
@@ -21,7 +21,7 @@ const HeaderInner = ({headerSetting = {}}) => {
         <>       
    
         <MobileMenu/>
-        <ConnectWallet/> 
+        
             <header className="uni-header">
                 <div className="uni-header-navbar" data-uk-sticky="top: 70; show-on-up: false; animation: uk-animation-slide-top" >
                     <div className="uk-container">

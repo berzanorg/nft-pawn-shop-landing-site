@@ -1,4 +1,4 @@
-import Footer from '../components/layouts/Footer';
+import Footer from '../components/layouts/Footer2';
 import HeaderInner from '../components/layouts/HeaderInner';
 export default function Template() {
   return (
