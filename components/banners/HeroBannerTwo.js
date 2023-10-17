@@ -19,8 +19,8 @@ const HeroBannerOne = () => {
                                 <img className="uk-position-left" width="16" src="images/objects/circle-01.png" alt="object" style={{top: "16%", left: "-16%"}} />
                                 <img className="uk-position-bottom-left" width="44" src="images/objects/bitcoin-01.png" alt="object" style={{bottom: "-16%", left: "16%"}} />
                                 <img className="uk-position-bottom-right" width="24" src="images/objects/circle-03.png" alt="object" style={{bottom: "-16%", right: "16%"}} />
-                                <h2 className="uk-h2 uk-heading-d1@m">Landing Platform NFT Pawn Shop</h2>
-                                <p className="uk-text-lead">Gain wealth by pawning your NFTs.</p>
+                                <h2 className="uk-h2 uk-heading-d1@m">NFT Pawn Shop</h2>
+                                <p className="uk-text-lead">Use your NFTs as collateral, quickly access urgent cash, protect your artworks, and integrate with your own platform using our open-source solution.</p>
                                 <a href="#uni_collection" className="uk-button uk-button-medium uk-button-large@m uk-button-gradient uk-margin-medium-top">Launch App</a>
                             </div>
                         </div>

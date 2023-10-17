@@ -1,35 +1,13 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Countdown from "./Countdown";
 
 
 
 
 const HomeOneCollection = () => {
-    const [timeLeft, setTimeLeft] = useState({
-        days: 10,
-        hours: 0,
-        minutes: 0,
-        seconds: 0,
-    });
-
-    useEffect(() => {
-        const countdown = setInterval(() => {
-            let totalSeconds =
-                timeLeft.days * 86400 +
-                timeLeft.hours * 3600 +
-                timeLeft.minutes * 60 +
-                timeLeft.seconds - 1;
-
-            setTimeLeft({
-                days: Math.floor(totalSeconds / 86400),
-                hours: Math.floor((totalSeconds % 86400) / 3600),
-                minutes: Math.floor((totalSeconds % 3600) / 60),
-                seconds: Math.floor(totalSeconds % 60),
-            });
-        }, 1000);
-
-        return () => clearInterval(countdown);
-    }, [timeLeft]);
+    
+     
 
 
     return (
@@ -38,7 +16,7 @@ const HomeOneCollection = () => {
                 <div className="uk-container">
                     <header className="uk-grid-xsmall uk-flex-center uk-flex-middle uk-text-center uk-child-width-auto@m uk-grid" data-uk-grid data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                         <div className="uk-panel">
-                            <h2 className="uk-h3 uk-h1@m">Latest artworks</h2>
+                            <h2 className="uk-h3 uk-h1@m">Latest Land NFT's</h2>
                         </div>
                     </header>
                     <div className="uk-panel uk-margin-top uk-margin-xlarge-top@m">
@@ -54,14 +32,12 @@ const HomeOneCollection = () => {
                                             <a className="uk-link-reset" href="#">#Metaverse</a>
                                         </h2>
                                         <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">Mad Lads</span>
-                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
-                                            <p className="text-lg font-bold">
-                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-                                            </p>
-                                        </div>
+
+                                        <Countdown initialTime={{days: 10, hours: 0, minutes: 0, seconds: 0}} />
+
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
-                                                <span>View more in OPENSEA</span>
+                                                <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
                                         </div>
@@ -79,14 +55,12 @@ const HomeOneCollection = () => {
                                             <a className="uk-link-reset" href="#">#Polly Doll</a>
                                         </h2>
                                         <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">Okay Bears</span>
-                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
-                                            <p className="text-lg font-bold">
-                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-                                            </p>
-                                        </div>
+
+                                        <Countdown initialTime={{days: 8, hours: 12, minutes: 0, seconds: 0}} />
+
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
-                                                <span>View more in OPENSEA</span>
+                                                <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
                                         </div>
@@ -104,14 +78,12 @@ const HomeOneCollection = () => {
                                             <Link className="uk-link-reset" href="#">#Alec Art</Link>
                                         </h2>
                                         <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">Reavers</span>
-                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
-                                            <p className="text-lg font-bold">
-                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-                                            </p>
-                                        </div>
+
+                                        <Countdown initialTime={{days: 6, hours: 4, minutes: 30, seconds: 0}} />
+
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
-                                                <span>View more in OPENSEA</span>
+                                                <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
                                         </div>
@@ -130,14 +102,12 @@ const HomeOneCollection = () => {
                                         </h2>
 
                                         <span className="uk-text-meta uk-margin-xsmall-top uk-visible@m">CETS</span>
-                                        <div className="mb-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-md shadow-md">
-                                            <p className="text-lg font-bold">
-                                                {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-                                            </p>
-                                        </div>
+
+                                        <Countdown initialTime={{days: 4, hours: 15, minutes: 20, seconds: 0}} />
+
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                                             <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
-                                                <span>View more in OPENSEA</span>
+                                                <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
                                         </div>

@@ -1,8 +1,7 @@
 {
-  "name": "nftpawnshop",
+  "name": "nerko",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,13 +19,12 @@
     "babel-plugin-macros": "^3.1.0",
     "feather-icons": "^4.29.0",
     "jquery": "^3.6.3",
-    "next": "^13.5.4",
+    "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sal.js": "^0.8.5",
     "sharp": "^0.31.3",
     "swiper": "^8.4.5",
-    "tailwindcss": "^3.3.3",
     "typed.js": "^2.0.12",
     "uikit": "^3.15.19"
   },

@@ -5,7 +5,7 @@ const HomeTwoAbout = () =>{
                 <div className="uk-container">
                     <header className="uk-grid-xsmall uk-flex-center uk-flex-middle uk-grid" data-uk-grid>
                         <div className="uk-panel uk-text-center">
-                            <h2 className="uk-h3 uk-h1@m">About the plaform</h2>
+                            <h2 className="uk-h3 uk-h1@m">Challenges We Face</h2>
                         </div>
                     </header>
                     <div className="uk-panel uk-margin-medium-top uk-margin-2xlarge-top@m">
@@ -21,9 +21,8 @@ const HomeTwoAbout = () =>{
                                         <div>
                                             <div className="uk-panel">
                                                 <span className="uk-text-overline uk-text-gradient">LEND AND EARN</span>
-                                                <h3 className="uk-h3 uk-h1@m">EVALUATE YOUR NFTs AND OBTAIN LOANS</h3>
-                                                <p className="uk-text-large@m">Leverage Your Art as Collateral to Secure Financing
-Consolidate all your NFTs from various networks in one place.</p>
+                                                <h3 className="uk-h3 uk-h1@m">LIQUIDITY CRUNCH</h3>
+                                                <p className="uk-text-large@m">NFT owners often face liquidity issues, are forced to sell their valuable assets at a loss, and struggle to find trustworthy lenders.</p>
                                                 <div className="uk-grid uk-grid-large@m uk-grid-match uk-child-width-1-2 uk-margin-large-top@m" data-uk-grid="">
                                                     <div>
                                                         <div className="uk-panel">
@@ -56,42 +55,12 @@ Consolidate all your NFTs from various networks in one place.</p>
                                         </div>
                                         <div className="uk-flex-first@m">
                                             <div className="uk-panel">
-                                                <span className="uk-text-overline uk-text-gradient">BRIDGE AND MANAGE</span>
-                                                <h3 className="uk-h3 uk-h1@m">Unified Across Chains</h3>
-                                                <p className="uk-text-large@m">Easily pledge, borrow, and manage your NFTs in one cohesive platform. Dive deeper into niche collections and make informed choices on valuable NFT assets to acquire.</p>
+                                                <span className="uk-text-overline uk-text-gradient">UTILITY</span>
+                                                <h3 className="uk-h3 uk-h1@m">Inactive NFTs</h3>
+                                                <p className="uk-text-large@m">Many NFTs are not actively utilized by their owners and do not provide financial benefits. Owners, who purchased these digital assets for investment purposes, perceive them merely as a collection item and are unable to fully exploit the potential value of the NFTs.</p>
                                                 <div className="uk-grid uk-grid-large@m uk-grid-match uk-child-width-1-2@m uk-margin-medium-top uk-margin-large-top@m" data-uk-grid="">
-                                                    <div>
-                                                        <div className="uk-panel">
-                                                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
-                                                                <div>
-                                                                    <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
-                                                                        <i className="uk-icon-small uk-icon-medium@m unicon-select-02 uk-text-white"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="uk-width-expand">
-                                                                    <span className="uk-text-small@m"
-                                                                        >Collections Updated <br />
-                                                                        Every 5 minutes.</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <div className="uk-panel">
-                                                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
-                                                                <div>
-                                                                    <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
-                                                                        <i className="uk-icon-small uk-icon-medium@m unicon-select-window uk-text-white"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="uk-width-expand">
-                                                                    <span className="uk-text-small@m"
-                                                                        >Value Discrepancy Between <br />
-                                                                        </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    
+                                                    
                                                 </div>
                                             </div>
                                         </div>

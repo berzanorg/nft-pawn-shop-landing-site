@@ -14,19 +14,19 @@ const Footer2 = ({footerSetting = {}}) => {
                         <div className="uk-panel uk-position-z-index">
                             <ul className="uk-subnav uk-subnav-small uk-flex-center uk-text-gray-70">
                                 <li>
-                                    <a href="https://twitter.com/unistudioco"><span className="uk-icon uk-icon-large@m unicon-logo-twitter"></span></a>
+                                    <a href="#"><span className="uk-icon uk-icon-large@m unicon-logo-twitter"></span></a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.com/unistudioco"><span className="uk-icon uk-icon-large@m unicon-logo-discord"></span></a>
+                                    <a href="#"><span className="uk-icon uk-icon-large@m unicon-logo-discord"></span></a>
                                 </li>
                                 <li>
-                                    <a href="https://instagram.com/unistudioco"><span className="uk-icon uk-icon-large@m unicon-logo-instagram"></span></a>
+                                    <a href="#"><span className="uk-icon uk-icon-large@m unicon-logo-instagram"></span></a>
                                 </li>
                                 <li>
-                                    <a href="https://facebook.com/unistudioco"><span className="uk-icon uk-icon-large@m unicon-logo-facebook"></span></a>
+                                    <a href="#"><span className="uk-icon uk-icon-large@m unicon-logo-facebook"></span></a>
                                 </li>
                                 <li>
-                                    <a href="https://youtube.com/unistudioco"><span className="uk-icon uk-icon-large@m unicon-logo-youtube"></span></a>
+                                    <a href="#"><span className="uk-icon uk-icon-large@m unicon-logo-youtube"></span></a>
                                 </li>
                             </ul>
                         </div>

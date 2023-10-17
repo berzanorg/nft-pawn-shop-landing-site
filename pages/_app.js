@@ -19,15 +19,26 @@ function MyApp({ Component, pageProps }) {
   const [firstRender, setFirstRender] = React.useState(false);
 
   useEffect(() => {  
-	   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            const target = document.querySelector(this.getAttribute('href'));
-            if (!target) return;
-            e.preventDefault();    
-            target.scrollIntoView({
-                behavior: 'smooth'
-            });
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const hrefValue = this.getAttribute('href');
+        
+        // "#" bağlantıları için özel bir kontrol ekleyin, 
+        // böylece bunlar üzerinde querySelector çalıştırmayın
+        if (hrefValue === '#') {
+          e.preventDefault(); // Varsayılan tıklama işlemini engelle
+          return; // Hedef yok, bu yüzden işleyiciden çık
+        }
+    
+        const target = document.querySelector(hrefValue);
+    
+        if (!target) return;
+    
+        e.preventDefault();
+        target.scrollIntoView({
+          behavior: 'smooth'
         });
+      });
     });
     
     

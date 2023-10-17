@@ -1,5 +1,5 @@
 const ChoseUs = () => {
-    return(
+    return( 
         <>
             <div id="uni_whyus" className="uni-whyus uk-section uk-section-xlarge@m uk-panel">
                 <div className="uk-container">
@@ -18,10 +18,10 @@ const ChoseUs = () => {
                                     <span className="uk-h3 uk-h2@m uk-text-gradient">01.</span>
                                     <div className="uk-panel uk-margin-top">
                                         <h3 className="uk-h5 uk-h4@m">
-                                            Neden 2
+                                        Full Focus and Expertise
                                             
                                         </h3>
-                                        <p className="uk-text-muted">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid voluptatibus suscipit quasi sequi velit ex nesciunt maxime explicabo nobis laborum? </p>
+                                        <p className="uk-text-muted">  We are solely focused on NFT-collateralized loans. With all our energy and knowledge in this field, we provide our users with unparalleled and expert solutions. </p>
                                     </div>
                                 </div>
                             </div>
@@ -30,10 +30,10 @@ const ChoseUs = () => {
                                     <span className="uk-h3 uk-h2@m uk-text-gradient">02.</span>
                                     <div className="uk-panel uk-margin-top">
                                         <h3 className="uk-h5 uk-h4@m">
-                                        Neden 1
+                                        Fast and User-Friendly
                                           
                                         </h3>
-                                        <p className="uk-text-muted">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid voluptatibus suscipit quasi sequi velit ex nesciunt maxime explicabo nobis laborum? </p>
+                                        <p className="uk-text-muted">  Our platform is designed to be lightweight, fast, and compatible with every device. We aim to meet our users' needs in the simplest and most effective way possible. </p>
                                     </div>
                                 </div>
                             </div>
@@ -42,9 +42,9 @@ const ChoseUs = () => {
                                     <span className="uk-h3 uk-h2@m uk-text-gradient">03.</span>
                                     <div className="uk-panel uk-margin-top">
                                         <h3 className="uk-h5 uk-h4@m">
-                                        Neden3
+                                        Secure and Transparent
                                         </h3>
-                                        <p className="uk-text-muted">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid voluptatibus suscipit quasi sequi velit ex nesciunt maxime explicabo nobis laborum? </p>
+                                        <p className="uk-text-muted">  We protect our users' data and transactions with robust security protocols and ensure transaction transparency through the blockchain. </p>
                                     </div>
                                 </div>
                             </div>
@@ -53,9 +53,9 @@ const ChoseUs = () => {
                                     <span className="uk-h3 uk-h2@m uk-text-gradient">04.</span>
                                     <div className="uk-panel uk-margin-top">
                                         <h3 className="uk-h5 uk-h4@m">
-                                        Neden 4
+                                        Easy Integration
                                         </h3>
-                                        <p className="uk-text-muted">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid voluptatibus suscipit quasi sequi velit ex nesciunt maxime explicabo nobis laborum? </p>
+                                        <p className="uk-text-muted">  We can integrate with every NFT marketplace and DApp, also providing APIs and SDKs that offer easy integration opportunities for developers. </p>
                                     </div>
                                 </div>
                             </div>
