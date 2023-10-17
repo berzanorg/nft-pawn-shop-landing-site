@@ -24,21 +24,7 @@ const HomeTwoAbout = () =>{
                                                 <h3 className="uk-h3 uk-h1@m">LIQUIDITY CRUNCH</h3>
                                                 <p className="uk-text-large@m">NFT owners often face liquidity issues, are forced to sell their valuable assets at a loss, and struggle to find trustworthy lenders.</p>
                                                 <div className="uk-grid uk-grid-large@m uk-grid-match uk-child-width-1-2 uk-margin-large-top@m" data-uk-grid="">
-                                                    <div>
-                                                        <div className="uk-panel">
-                                                            <h5 className="uk-h4 uk-h2@m uk-margin-xsmall">6,000+</h5>
-                                                            <span className="uk-text-small@m"
-                                                                >Scanned Collections
-                                                                <br />
-                                                                Dynamically updated every 10 minutes. </span>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <div className="uk-panel">
-                                                            <h5 className="uk-h4 uk-h2@m uk-margin-xsmall">2.8x</h5>
-                                                            <span className="uk-text-small@m">Ratio Between Market Price & Estimated Value</span>
-                                                        </div>
-                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>

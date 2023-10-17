@@ -13,42 +13,36 @@ const FaqOne = () => {
                     <div className="uk-panel uk-margin-medium-top uk-margin-2xlarge-top@m">
                         <ul className="uk-card uk-card-small uk-card-large@m uk-radius uk-radius-large@m uk-width-2xlarge@m uk-margin-auto uk-box-shadow-xsmall dark:uk-background-white-5" data-uk-accordion="collapsible: false" data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;">
                             <li>
-                                <Link className="uk-accordion-title uk-h5@m" href="#">What is NFT Pawn Shop's NFT Collection?</Link>
+                                <Link className="uk-accordion-title uk-h5@m" href="#">What exactly is the NFT Pawn Shop?</Link>
                                 <div className="uk-accordion-content uk-padding-small-bottom">
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <p className="uk-text-small uk-text-large@m uk-text-muted">NFT Pawn Shop is a decentralized platform that enables you to secure loans by using your NFTs as collateral, as well as to earn interest by lending funds.</p>
                                 </div>
                             </li>
                             <li>
-                                <Link className="uk-accordion-title uk-h5@m" href="#">How we can buy and invest NFT?</Link>
+                                <Link className="uk-accordion-title uk-h5@m" href="#">How does borrowing work?</Link>
                                 <div className="uk-accordion-content uk-padding-small-bottom">
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                    <p className="uk-text-small uk-text-large@m uk-text-muted">NFT Pawn Shop is a decentralized platform that enables you to secure loans by using your NFTs as collateral, as well as to earn interest by lending funds.</p>
                                 </div>
                             </li>
                             <li>
-                                <Link className="uk-accordion-title uk-h5@m" href="#">Why we should choose NFT Pawn Shop's NFT?</Link>
+                                <Link className="uk-accordion-title uk-h5@m" href="#">What’s the process for lenders?</Link>
                                 <div className="uk-accordion-content uk-padding-small-bottom">
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Browse available loan requests to find one that suits your lending criteria. When you spot a favorable opportunity, you can fund the loan and, in return, hold the borrower’s NFT as collateral until the loan is repaid with interest.</p>
                                 </div>
                             </li>
                             <li>
-                                <Link className="uk-accordion-title uk-h5@m" href="#">Where we can buy and sell NFts?</Link>
+                                <Link className="uk-accordion-title uk-h5@m" href="#">What if a loan isn’t repaid?</Link>
                                 <div className="uk-accordion-content uk-padding-small-bottom">
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Should a borrower fail to repay the loan within the agreed timeframe, the collateralized NFT is forfeited and transferred to the lender, ensuring the protection of your investment.</p>
                                 </div>
                             </li>
                             <li>
-                                <Link className="uk-accordion-title uk-h5@m" href="#">How secure is this token?</Link>
+                                <Link className="uk-accordion-title uk-h5@m" href="#">What makes us unique?</Link>
                                 <div className="uk-accordion-content uk-padding-small-bottom">
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <p className="uk-text-small uk-text-large@m uk-text-muted">We go beyond typical services by offering lightweight SDKs and comprehensive documentation for easy integration, allowing even our competitors to extend the same services through seamless integration. This commitment to openness and accessibility sets us apart in the NFT financial space.</p>
                                 </div>
                             </li>
-                            <li>
-                                <Link className="uk-accordion-title uk-h5@m" href="#">What is your contract address?</Link>
-                                <div className="uk-accordion-content uk-padding-small-bottom">
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
-                                </div>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>

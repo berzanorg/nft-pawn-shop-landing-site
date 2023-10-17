@@ -3,7 +3,7 @@ import Header2 from '../components/layouts/Header2';
 import HeroBannerTwo from '../components/banners/HeroBannerTwo';
 import Divider from '../components/Divider';
 import HomeTwoCta from '../components/cta/HomeTwoCta';
-import HomeTwoNumber from '../components/number/HomeTwoNumber';
+
 import HomeOneCollection from '../components/collection/HomeOneCollection';
 import HomeTwoRoadMap from '../components/roadmap/HomeTwoRoadMap';
 import TeamTwo from '../components/team/TeamTwo';
@@ -28,8 +28,7 @@ export default function Template() {
 			<HomeTwoAbout/>
 			<Divider/> 
 			<TeamTwo/>
-			<Divider/> 
-			<HomeTwoNumber/>
+			
 			<Divider/> 
 			<HomeTwoRoadMap/>
 			<Divider/> 

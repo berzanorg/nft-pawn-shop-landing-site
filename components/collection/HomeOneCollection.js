@@ -16,7 +16,7 @@ const HomeOneCollection = () => {
                 <div className="uk-container">
                     <header className="uk-grid-xsmall uk-flex-center uk-flex-middle uk-text-center uk-child-width-auto@m uk-grid" data-uk-grid data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
                         <div className="uk-panel">
-                            <h2 className="uk-h3 uk-h1@m">Latest Land NFT's</h2>
+                            <h2 className="uk-h3 uk-h1@m">Latest Pawned NFTs</h2>
                         </div>
                     </header>
                     <div className="uk-panel uk-margin-top uk-margin-xlarge-top@m">
