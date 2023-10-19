@@ -27,8 +27,7 @@ export default function Template() {
 			<Divider/> 
 			<HomeTwoAbout/>
 			<Divider/> 
-			<TeamTwo/>
-			
+			<TeamTwo/>			
 			<Divider/> 
 			<HomeTwoRoadMap/>
 			<Divider/> 

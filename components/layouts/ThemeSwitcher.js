@@ -1,50 +1,30 @@
-import {useEffect, useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useEffect } from 'react';
 
 const ThemeSwitcher = () => {
-    const [darkMode, setDarkMode] = useState(false);
 
-    const toggleTheme = () => {
-        setDarkMode((prev) => !prev);
-
-        if (darkMode) {
-            window.localStorage.setItem('theme', 'light');
-        } else {
-            window.localStorage.setItem('theme', 'dark');
-        }
-    };
-
+    // Sayfa yüklendiğinde dark mode'u etkinleştir
     useEffect(() => {
-        const html = document.querySelector('Html'),
-            theme = window.localStorage.getItem('theme');
+        const setDefaultTheme = () => {
+            const html = document.querySelector('html');
+            // Local storage kontrolü, daha önce tema ayarlandı mı diye (isteğe bağlı)
+            const theme = window.localStorage.getItem('theme') || 'dark'; // Varsayılan olarak dark set ediliyor
 
-        if (theme === 'dark') {
-            setDarkMode(true);
-            html.classList.add('uk-dark');           
-        } else {
-            setDarkMode(false);
-            html.classList.add('uk-light-demo');
-            html.classList.remove('uk-dark');
-        }
-    }, [darkMode]);
+            if (theme === 'dark') {
+                html.classList.add('uk-dark');
+            } else {
+                // Eğer gelecekte başka bir tema eklemek isterseniz burada kontrol edebilirsiniz,
+                // ancak şu anki gereksinimlerinize göre bu kod çalışmayacak.
+            }
 
-    return (
-        <div className="my_switcher">            
-            <div className="wrap uk-overflow-hidden">
-                <div className="darkmode-trigger uk-position-bottom-right uk-position-small uk-position-fixed uk-box-shadow-large uk-radius-circle" data-darkmode-toggle="">
-                <label className="switch">
-                    <span className="sr-only">Dark mode toggle</span>
-                    <input data-theme="light"
-                            className={`setColor light ${darkMode ? '' : 'active'}`}
-                            onClick={() => toggleTheme()} type="checkbox" />
-                    <span className="slider"></span>
-                    <img className="uk-visible dark:uk-hidden" width="120" src="/images/moon.svg" alt="NFT Pawn Shop" loading="lazy" /> 
-                    <img className="uk-hidden dark:uk-visible" width="120" src="/images/light.svg" alt="NFT Pawn Shop" loading="lazy" /> 
-                </label>
-            </div>
-        </div>
-        </div>
-    );
+            // Temayı local storage'da saklayın (isteğe bağlı, kullanıcı yeniden geldiğinde aynı tema uygulanır)
+            window.localStorage.setItem('theme', theme);
+        };
+
+        setDefaultTheme();
+    }, []); // useEffect, bileşen yüklendiğinde sadece bir kere çalıştırılır
+
+    // Kullanıcıya tema değiştirme seçeneği sunmuyoruz, bu yüzden toggle işlevselliğini kaldırdık.
+    return null; // UI elemanı olmadığı için null döndürülüyor. Tema değiştirici buton veya switch yok.
 };
 
 export default ThemeSwitcher;
