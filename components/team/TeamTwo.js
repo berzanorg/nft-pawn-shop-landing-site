@@ -105,7 +105,7 @@ const TeamTow=() =>{
                                 </div>
                                 <div>
                                     <div className="uk-panel uk-card-2xsmall uk-card-small@m uk-text-center">
-                                        <h3 className="uni-artist-name uk-text-small uk-h5@m uk-margin-2xsmall">Zaid</h3>
+                                        <h3 className="uni-artist-name uk-text-small uk-h5@m uk-margin-2xsmall">Ryomen</h3>
                                         <span className="uni-artist-position uk-text-small uk-text-muted">Artist</span>
                                         <ul className="uk-subnav uk-subnav-small uk-flex-center uk-margin-xsmall-top uk-margin-small-top@m">
                                             <li>
