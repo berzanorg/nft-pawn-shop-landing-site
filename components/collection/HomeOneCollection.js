@@ -36,7 +36,7 @@ const HomeOneCollection = () => {
                                         <Countdown initialTime={{days: 10, hours: 0, minutes: 0, seconds: 0}} />
 
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
-                                            <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
+                                            <Link href="https://solana-devs.github.io/nft-pawn-shop/" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
@@ -59,7 +59,7 @@ const HomeOneCollection = () => {
                                         <Countdown initialTime={{days: 8, hours: 12, minutes: 0, seconds: 0}} />
 
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
-                                            <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
+                                            <Link href="https://solana-devs.github.io/nft-pawn-shop/" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
@@ -82,7 +82,7 @@ const HomeOneCollection = () => {
                                         <Countdown initialTime={{days: 6, hours: 4, minutes: 30, seconds: 0}} />
 
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
-                                            <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
+                                            <Link href="https://solana-devs.github.io/nft-pawn-shop/" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
@@ -106,7 +106,7 @@ const HomeOneCollection = () => {
                                         <Countdown initialTime={{days: 4, hours: 15, minutes: 20, seconds: 0}} />
 
                                         <div className="uni-btn uk-margin-medium-top uk-margin-top@m uk-flex-center" data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;">
-                                            <Link href="#view_in_opensea" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
+                                            <Link href="https://solana-devs.github.io/nft-pawn-shop/" className="uk-button uk-button-small uk-button-large@m uk-button-gradient">
                                                 <span>Go To App</span>
                                                 <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                                             </Link>
