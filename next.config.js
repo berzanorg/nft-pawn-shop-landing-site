@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'standalone',
   reactStrictMode: true,
   basePath: process.env.NODE_ENV === "production" ? "/nft-pawn-shop" : undefined,
   images: {
